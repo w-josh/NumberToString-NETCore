@@ -1,0 +1,75 @@
+body{
+    background-image: url("../geopattern.jpg");
+    background-repeat: no-repeat;
+    height:100vh;
+    background-size:cover;
+    font-family: "Kode Mono", monospace;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+.title{
+    text-align: center;
+    color: lightslategrey;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.objectiveText{
+    text-align: center;
+    
+}
+footer{
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    
+}
+form{
+    text-align: center;
+}
+.objectiveText{
+    display: block;
+    font-size: 35px;
+    color: lightslategrey;
+    padding-bottom: 10px;
+}
+.objectiveInput{
+    font-family: "Kode Mono", monospace;
+    color:white;
+    width: 50%;
+    height: 35px;
+    font-size: 25px;
+    border:none;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid lightslategrey;
+    background-color:transparent;
+}
+.objectiveInput:focus{
+    border-bottom-color: white;
+    outline: none;
+}
+
+button{
+    font-family: "Kode Mono", monospace;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: lightslategrey;
+    transition: transform 0.3s ease;
+}
+button:hover{
+    color: white;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+}
+.stringReturn{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    color: white;
+}
