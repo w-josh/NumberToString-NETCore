@@ -1,3 +1,4 @@
 Go to Docker Hub and pull the docker file: https://hub.docker.com/r/jwebber106/tech-test-image
 (run docker pull jwebber106/tech-test-image)
 Once pulled, run the container using: docker run -d -p 8080:80 --name tech-test-container tech-test-image     
+Go to localhost:8080 to view the web app.
